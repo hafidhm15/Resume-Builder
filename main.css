@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap");
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:'poppins',sans-serif;
+}
+
+#main{
+	height:185%;
+	width:90%;
+	border-radius: 5px;
+	margin:auto;
+	border:5px solid #23ac39;
+	top:0px;
+	left:5%;
+}
+
+body{
+	display:flex;
+	height: 100vh;
+	justify-content: center;
+	align-items:center;
+}
+
+#header{
+	text-align:center;
+	background-color:#23ac39;
+	width: 100%;
+	
+}
+
+#resume_builder{
+	font-family:'poppins',sans-serif;
+	font-size:54px;
+	color:white;
+}
+
+#select_option{
+	height:8%;
+	width:100%;
+	position:absolute;
+	
+}
+
+#select_toggle{
+	width:80%;
+	position:absolute;
+	height:100%;
+	padding:10px;
+	left: 5%;
+	margin:2%;
+	
+}
+
+.toggle1{
+	width:12%;
+	height:80px;
+	border-radius: px;
+	background-color:#23ac39;
+	position:relative;
+	display:inline;
+	padding: 5px;
+	margin:auto;
+	float:left;
+	text-align:center;	
+}
+
+.toggle2{
+	width:10%;
+	height:80px;
+	border-radius: 4px;
+	padding: 5px;
+	background-color:#23ac39;
+	position:relative;
+	display:inline;
+	margin:auto;
+	float:left;
+	text-align:center;
+	border-left:1px solid black;
+	border-right:1px solid black;
+}
+.option{
+	color:white;
+	font-size:15px;
+	
+}
+.form {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    height: 300px;
+    border-radius: 16px;
+}
+
+.content-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.sectionwrap{
+	display: flex;
+    padding: 16px;
+    flex-direction: column;
+    height: 300px;
+    border-radius: 16px;
+}
+
+
+.single{
+	top:5px;
+	
+}
+
+.labels{
+
+	font-size: 21px;
+}
+
+.styles{
+	width: 970px;
+	height: 35px;
+	border-radius: 8px;
+	border: 2px solid black;
+	padding: 18px;
+    box-sizing: border-box;
+	margin-bottom: 8px;
+    font-size: 20px;
+}
+#choosediploma_1{
+	margin-left: 10px;
+}
+
+#achive{
+	width: 280px;
+	height: 32px;
+	border-radius: 5px;
+}
+
+#interest{
+	width: 180px;
+	height: 32px;
+	border-radius: 5px;
+}
+#extraproject{
+	width: 180px;
+	height: 32px;
+	border-radius: 5px;
+
+}
+#footer{
+	color:white;
+	background-color:#23ac39;
+	position:absolute;
+	top:180%;
+	height:10%;
+	width:89.5%;
+}
+
+#name{
+	
+	margin:auto;
+}
+
+#next{
+	float:right;
+}
+
+#content{
+	margin-top:12%;
+	margin-left:10%;
+}
+
+.labels{
+	margin-top:10px;
+}
+
+
+ #TemplateList input
+{
+	position: absolute;
+	margin-top: 320px;
+	width: 20px;
+	height: 20px;
+	margin-left: 100px;
+}
+
+#TemplateList img
+{
+	margin: 5%;
+	height: 300px;
+	width: 200px;
+	margin-bottom: 40px;
+	border: solid 1px #eee;
+}
+									
+fieldset {
+    border: 0;
+}
+#footer #back{
+	width: 70px;
+	height: 32px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	border:2px solid #23ac39;
+}
+
+#footer #next{
+	width: 70px;
+	height: 32px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	border:2px solid #23ac39;
+}
+/* @media screen and (min-width: 480px) {
+	.styles{
+		width: 950px;
+		height: 45px;
+	}
+   } */
+
+
+    
+    
+   /* minimal layar ukuran besar */
+
+ 
+@media only screen and (max-width: 1208px) {
+
+	.content-wrapper{
+		margin: 0;
+	}
+
+	form{
+		width: 100%;
+	}
+
+	.styles{
+		width: 650px;
+		height: 45px;
+	}
+
+	#content{
+		margin-top:20%;
+		
+	}
+	#select_option{
+		margin: 0;
+	}
+	.option{
+		font-size: 10px;
+		margin: 0;
+	}
+
+	.toggle1{
+		width:12%;
+		height:80px;
+		border-radius: 4px;
+		background-color:#23ac39;
+		position:relative;
+		display:inline;
+		padding: 5px;
+		margin:auto;
+		float:left;
+		text-align:center;	
+	}
+	
+	.toggle2{
+		width:10%;
+		height:80px;
+		border-radius: 4px;
+		padding: 5px;
+		background-color:#23ac39;
+		position:relative;
+		display:inline;
+		margin:auto;
+		float:left;
+		text-align:center;
+		border-left:1px solid white;
+		border-right:1px solid wheat;
+	}
+	
+	@media only screen and (max-width: 789px) {
+		#content{
+			margin-top:22%;
+			
+		}
+		.option{
+			font-size: 9px;
+			margin: 0;
+		}
+	
+		.styles{
+			width: 350px;
+			height: 45px;
+		}
+		#TemplateList img{
+			width: 87px;
+			height: 300px;
+		}
+		
+	}
+}
